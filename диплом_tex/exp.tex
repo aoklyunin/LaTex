@@ -1,0 +1,109 @@
+\section{Экспериментальные исследования}
+	Для проверки математических расчётов было организовано 2 эксперимента: управление по моментам и управление по силам.	
+	\subsection{Управление по силам}
+		 На Рисунках 10-15 показаны графики, иллюстрирующие реализованное управление в режиме "force feedback position"
+	
+		\begin{figure}[!h]
+			\centering		 
+			\includegraphics[width=2in]{./graph/posX.jpg}	
+			\caption{
+				\textbf{X - канал: положения}
+			}     
+			\label{fig_img41}
+		\end{figure}
+		\begin{figure}[!h]
+			\centering		 
+			\includegraphics[width=2in]{./graph/powX.jpg}	
+			\caption{
+				\textbf{X - канал: силы}
+			}
+			\label{fig_img42}
+		\end{figure}
+		\begin{figure}[!h]
+			\centering		 
+			\includegraphics[width=2in]{./graph/posY.jpg}	
+			\caption{
+				\textbf{Y - канал: положения}
+			}
+			\label{fig_img43}
+		\end{figure}
+		\begin{figure}[!h]
+			\centering		 
+			\includegraphics[width=2in]{./graph/powY.jpg}	
+			\caption{
+				\textbf{Y - канал: силы}
+			}
+			\label{fig_img44}
+		\end{figure}		
+		\begin{figure}[!h]
+			\centering		 
+			\includegraphics[width=2in]{./graph/posZ.jpg}	
+			\caption{
+				\textbf{Z - канал: положения}
+			}
+			\label{fig_img45}
+		\end{figure}
+		\begin{figure}[!h]
+			\centering		 
+			\includegraphics[width=4cm]{./graph/powZ.jpg}	
+			\caption{
+				\textbf{Z - канал: силы}
+			}
+			\label{fig_img46}
+		\end{figure}
+		
+	\subsection{Управление по моментам}
+			На Рисунках 16-21 показаны графики, иллюстрирующие реализованное управление в режиме "force feedback orientation"
+					
+			\begin{figure}[h!]
+				\centering		 
+				\includegraphics[width=2in]{./graph/j4.jpg}	
+				\caption{
+					\textbf{канал четвёртого джоинта: угол}
+				}     
+				\label{fig_img151}
+			\end{figure}
+			\begin{figure}[h!]
+				\centering		 
+				\includegraphics[width=2in]{./graph/m4.jpg}	
+				\caption{
+					\textbf{канал четвёртого джоинта: момент}
+				}
+				\label{fig_img54}
+			\end{figure}
+			\begin{figure}[h!]
+				\centering		 
+				\includegraphics[width=2in]{./graph/j5.jpg}	
+				\caption{
+					\textbf{канал пятого джоинта: угол}
+				}
+				\label{fig_img52}
+			\end{figure}
+			\begin{figure}[h!]
+				\centering		 
+				\includegraphics[width=2in]{./graph/m5.jpg}	
+				\caption{
+					\textbf{канал пятого джоинта: момент}
+				}
+				\label{fig_img55}
+			\end{figure}
+			\begin{figure}[h!]
+				\centering		 
+				\includegraphics[width=2in]{./graph/j6.jpg}	
+				\caption{
+					\textbf{канал шестого джоинта: угол}
+				}
+				\label{fig_img53}
+			\end{figure}					
+			\begin{figure}[h!]
+				\centering		 
+				\includegraphics[width=2in]{./graph/m6.jpg}	
+				\caption{
+					\textbf{канал шестого джоинта: момент}
+				}
+				\label{fig_img56}
+			\end{figure}
+					
+		\subsection{Результаты экспериментов}
+		Из графиков наглядно видно, что система имеет серьёзное запаздывание, что вызвано <<шаговостью>> робота-манипулятора. 
+		Тем не менее система корректно отрабатывает задание, следовательно, поставленная задача выполнена.	
